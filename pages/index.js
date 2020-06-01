@@ -1,3 +1,5 @@
+import LitPricing from "../components/litPricing";
+
 export default function Home() {
-  return <div>Next-Offline Example, try to install app via chrome</div>
+  return <LitPricing />;
 }
