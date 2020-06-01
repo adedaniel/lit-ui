@@ -1,16 +1,15 @@
 {
-  "name": "next-offline",
-  "short_name": "next-offline",
-  "description": "Nextjs using service worker via next-offline",
+  "name": "Lit",
+  "short_name": "Lit",
+  "description": "Lit UI apllication",
   "icons": [
     {
-      "src": "/static/pwa.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#0090E8",
+  "background_color": "#FF6700",
   "start_url": "/",
   "display": "standalone"
 }

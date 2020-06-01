@@ -68,7 +68,7 @@ export default function LitPricing() {
         </div>
         <div>
           <section className="bg-light pricingWrapper position-absolute w-100">
-            <div className="container mb-5 pb-5 pricingContainer">
+            <div className="container mb-5 pb-4 pricingContainer">
               <div className="row">
                 <div className="col-md-3 pr-0">
                   <div className="container pl-5 planGrid">
@@ -91,15 +91,15 @@ export default function LitPricing() {
 
                   <i
                     data-toggle="collapse"
-                    data-target="#collapseExample"
+                    data-target="#bronzePlan"
                     aria-expanded="false"
-                    aria-controls="collapseExample"
+                    aria-controls="bronzePlan"
                     className="fa fa-angle-down expandBronze mt-5 mb-0"
                     aria-hidden="true"
                   ></i>
 
                   <table
-                    id="collapseExample"
+                    id="bronzePlan"
                     className="collapse mt-5 table table-striped"
                   >
                     <tbody>
@@ -112,14 +112,6 @@ export default function LitPricing() {
                             50k - 150k Naira
                           </span>
                         </td>
-                        <td>
-                          <span className="silverTextOption">
-                            50k - 2M Naira
-                          </span>
-                        </td>
-                        <td className="goldColumn ">
-                          <span className="goldTextOption">50k - 4M Naira</span>
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -127,12 +119,6 @@ export default function LitPricing() {
                         </th>
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
-                        </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
                         </td>
                       </tr>
                       <tr>
@@ -142,12 +128,6 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -155,12 +135,6 @@ export default function LitPricing() {
                         </th>
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
-                        </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
                         </td>
                       </tr>
                       <tr>
@@ -172,14 +146,6 @@ export default function LitPricing() {
                             200k - 400k Naira
                           </span>
                         </td>
-                        <td>
-                          <span className="silverTextOption">
-                            200k - 1M Naira
-                          </span>
-                        </td>
-                        <td className="goldColumn ">
-                          <span className="goldTextOption">200k -1M Naira</span>
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -187,12 +153,6 @@ export default function LitPricing() {
                         </th>
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
-                        </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
                         </td>
                       </tr>
                       <tr>
@@ -202,24 +162,12 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           Escort
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -227,12 +175,6 @@ export default function LitPricing() {
                         </th>
                         <td className="bronzeColumn ">
                           <span className="bronzeTextOption">Just 1</span>
-                        </td>
-                        <td>
-                          <span className="silverTextOption">Just 3</span>
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
                         </td>
                       </tr>
                       <tr>
@@ -242,12 +184,6 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -256,22 +192,12 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           24/7 Customer Success Expert
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td></td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -280,60 +206,30 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           Event
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           Games
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td></td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           Gold Investor
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td>
-                          <span className="silverTextOption">
-                            Silver Investor
-                          </span>
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
                           Start Up
                         </th>
                         <td className="bronzeColumn"></td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -342,12 +238,6 @@ export default function LitPricing() {
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
                         </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
-                        </td>
                       </tr>
                       <tr>
                         <th className="featuresColumn pl-5" scope="row">
@@ -355,12 +245,6 @@ export default function LitPricing() {
                         </th>
                         <td className="bronzeColumn">
                           <GreenCheck width="35px" />
-                        </td>
-                        <td>
-                          <BlueCheck width="35px" />
-                        </td>
-                        <td className="goldColumn">
-                          <PurpleCheck width="35px" />
                         </td>
                       </tr>
                     </tbody>
@@ -378,6 +262,177 @@ export default function LitPricing() {
                   >
                     Activate
                   </button>
+                  <i
+                    data-toggle="collapse"
+                    data-target="#silverPlan"
+                    aria-expanded="false"
+                    aria-controls="silverPlan"
+                    className="fa fa-angle-down expandSilver mt-5 mb-4 mb-0"
+                    aria-hidden="true"
+                  ></i>
+                  <table
+                    id="silverPlan"
+                    className="collapse mt-5 table table-striped"
+                  >
+                    <tbody>
+                      <tr>
+                        <th className="featuresColumn pl-5 mr-3" scope="row">
+                          Loan
+                        </th>
+
+                        <td>
+                          <span className="silverTextOption">
+                            50k - 2M Naira
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Investment
+                        </th>
+
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Smart Travel Savings
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Security
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Bank Statement
+                        </th>
+                        <td>
+                          <span className="silverTextOption">
+                            200k - 1M Naira
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Visa
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Ticket
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Escort
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Eight Free Country Destination
+                        </th>
+                        <td>
+                          <span className="silverTextOption">Just 3</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Tour Package
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Hotel Reservation
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          24/7 Customer Success Expert
+                        </th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Travel shows
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Event
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Games
+                        </th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Gold Investor
+                        </th>
+                        <td>
+                          <span className="silverTextOption">
+                            Silver Investor
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Start Up
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Give a Meal
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Cargo
+                        </th>
+                        <td>
+                          <BlueCheck width="35px" />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-md-3 goldGrid pr-4 text-center pt-4">
                   <h1 className="goldName">GOLD</h1>
@@ -391,6 +446,192 @@ export default function LitPricing() {
                   >
                     Activate
                   </button>
+                  <i
+                    data-toggle="collapse"
+                    data-target="#goldPlan"
+                    aria-expanded="false"
+                    aria-controls="goldPlan"
+                    className="fa fa-angle-down expandGold mt-4 mb-0"
+                    aria-hidden="true"
+                  ></i>
+                  <table
+                    id="goldPlan"
+                    className="collapse mt-5 table table-striped"
+                  >
+                    <tbody>
+                      <tr>
+                        <th className="featuresColumn pl-5 mr-3" scope="row">
+                          Loan
+                        </th>
+
+                        <td className="goldColumn ">
+                          <span className="goldTextOption">50k - 4M Naira</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Investment
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Smart Travel Savings
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Security
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Bank Statement
+                        </th>
+
+                        <td className="goldColumn ">
+                          <span className="goldTextOption">200k -1M Naira</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Visa
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Ticket
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Escort
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Eight Free Country Destination
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Tour Package
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Hotel Reservation
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          24/7 Customer Success Expert
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Travel shows
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Event
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Games
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Gold Investor
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Start Up
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Give a Meal
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th className="featuresColumn pl-5" scope="row">
+                          Cargo
+                        </th>
+
+                        <td className="goldColumn">
+                          <PurpleCheck width="35px" />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
 
@@ -720,11 +961,41 @@ export default function LitPricing() {
       <br />
 
       <style jsx>{`
+        #silverPlan {
+          background-color: #daebf5;
+          border-radius: 20px;
+        }
         .expandBronze {
           color: #ff6700;
           font-size: 36px;
           font-weight: 800;
         }
+        @media (min-width: 768px) {
+          .expandBronze {
+            display: none !important;
+          }
+        }
+        .expandSilver {
+          color: white;
+          font-size: 36px;
+          font-weight: 800;
+        }
+        @media (min-width: 768px) {
+          .expandSilver {
+            display: none !important;
+          }
+        }
+        .expandGold {
+          color: #7a00d1;
+          font-size: 36px;
+          font-weight: 800;
+        }
+        @media (min-width: 768px) {
+          .expandGold {
+            display: none !important;
+          }
+        }
+
         @media (max-width: 767px) {
           .goldGrid {
             margin-top: 40px;
@@ -880,8 +1151,8 @@ export default function LitPricing() {
         }
         @media (max-width: 575px) {
           .footer {
-            margin-left: -15px;
-            margin-right: -15px;
+            margin-left: -20px;
+            margin-right: -20px;
           }
         }
         .bronzeTextOption {
@@ -918,15 +1189,31 @@ export default function LitPricing() {
         .goldColumn {
           border-radius: 0 20px 20px 0 !important;
         }
+        @media (max-width: 767px) {
+          .bronzeColumn {
+            border-radius: 0 20px 20px 0 !important;
+          }
+        }
+        @media (max-width: 767px) {
+          td {
+            border-radius: 0 20px 20px 0 !important;
+          }
+        }
+
         .textWhite {
           color: white !important;
         }
         .silverCard {
           background-color: #0090e8;
           border-radius: 20px;
-          height: 410px !important;
           margin-top: -30px;
           margin-bottom: -30px;
+        }
+        @media (max-width: 767px) {
+          .silverCard {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
         }
         .silverName {
           color: white;
@@ -1052,7 +1339,7 @@ export default function LitPricing() {
         }
         @media (max-width: 575px) {
           .pricingWrapper {
-            padding: 0 15px !important;
+            padding: 0 20px !important;
           }
         }
         .bgImage {
